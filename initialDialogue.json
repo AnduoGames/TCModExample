@@ -1,0 +1,47 @@
+{
+    "Name" : "Test Mod Dialogue",
+    "Lines": [
+        {
+            "CharacterName" : "Jenna",
+            "Text" : "This is a modded dialogue",
+            "Eyes" : "Happy",
+            "Mouth" : "Happy",
+            "Eyebrows" : "Happy"
+        },
+        {
+            "CharacterName" : "Jewel",
+            "Text" : "Oh yeah???",
+            "Eyes" : "Happy",
+            "Mouth" : "Happy",
+            "Eyebrows" : "Happy"
+        },
+        {
+            "CharacterName" : "Jenna",
+            "Text" : "Yeah, really!!!"
+        },
+        {
+            "CharacterName" : "Throb",
+            "Text" : "Yeah, really!!!",
+            "Choices" : [
+                {
+                    "Text" : "Repeat this dialogue",
+                    "TargetDialogue": "initialDialogue.json"
+                },
+                {
+                    "Text" : "Play another dialogue",
+                    "TargetCondition" : "Condition.json",
+                    "SetSaveKeys" : [
+                        {
+                            "Key" : "DidEatIcecream",
+                            "SetToValue" : false
+                        }
+                    ]
+                },
+                {
+                    "Text" : "Exit",
+                    "TargetDialogue" : "EndDialogue"
+                }
+            ]
+        }
+    ]
+}

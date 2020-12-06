@@ -1,0 +1,18 @@
+{
+    "Name" : "Test Mod Dialogue",
+    "SetSaveKeys" : [
+        {
+            "Key" : "DidEatIcecream",
+            "SetToValue" : true
+        }
+    ],
+    "Lines": [
+        {
+            "CharacterName" : "Jenna",
+            "Text" : "This is another dialogue",
+            "Eyes" : "Sad",
+            "Mouth" : "Sad",
+            "Eyebrows" : "Sad"
+        }
+    ]
+}

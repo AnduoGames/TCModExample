@@ -1,0 +1,24 @@
+{
+    "ConditionGroups" : [
+        {
+            "SaveKeys" : [
+                {
+                    "Key" : "DidEatIcecream",
+                    "ExpectedValue" : true
+                }
+            ],
+            "TargetDialogueOnTrue" : "initialDialogue.json",
+            "AbortOnTrue" : true
+        },
+        {
+            "SaveKeys" : [
+                {
+                    "Key" : "DidEatIcecream",
+                    "ExpectedValue" : false
+                }
+            ],
+            "TargetDialogueOnTrue" : "secondDialogue.json",
+            "AbortOnTrue" : false
+        }
+    ]
+}

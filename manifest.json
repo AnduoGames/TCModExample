@@ -1,0 +1,26 @@
+{
+    "Name" : "Bear Test Mod! ♥",
+    "Author" : "Bear",
+    "Version" : "0.1",
+    "Url" : "https://www.patreon.com/AnduoGames",
+    "SaveKeyIdentifier" : "BearModKeys",
+    "DialoguePaths" : [
+        "initialDialogue.json",
+        "secondDialogue.json"
+    ],
+    "ConditionPaths" : [
+        "Condition.json"
+    ],
+    "Triggers" : [
+        {
+            "Name": "Bar Trigger",
+            "Level" : "Bar",
+            "X" : 2.5,
+            "Y" : -3.5,
+            "Width" : 1,
+            "Height" : 1,
+            "Dialogue" : "",
+            "Condition" : "Condition.json"
+        }
+    ]
+}
